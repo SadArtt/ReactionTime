@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+
+#leftside {
+    width: 20%;
+    height: 100vh;
+    border-right: 2px solid #222222;
+    background-color: #363636;
+    
+}
+
+#title{
+position: fixed;
+left: 10px ;
+top: 0px;
+background-color: #302e2e;
+padding: 50px;
+border-radius: 7px;
+color: azure;
+
+}
+
+#record{
+    position: fixed;
+    left: 50px;
+    top: 50%;
+    color:azure ;
+}
+
+#creds{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-size: 10px;
+    color: #f6f8f6;
+    font-style: italic ;
+}
+
+#playarea{
+    position: fixed;
+    top: 0px;
+    left: 20%;
+    width: 80%;
+    height: 100vh;
+    background-color: #363636;
+
+}
+
+#playarea:hover{
+    cursor: default;
+}
+
+#waitsign{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(24, 196, 90) ;
+    font-size: 60px ;
+}
+
+#bait{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: azure;
+    background-color: transparent;
+    font-size: 20px;
+    display: none;
+}
